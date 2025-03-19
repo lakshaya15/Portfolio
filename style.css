@@ -316,12 +316,11 @@ section h1 span{
     font-size: 16px;
     font-family: "Poppins", serif;
     font-weight: 600;
-    padding: 7px;
+    
     cursor: pointer;
     background-color: white;
     color: black;
-    border-radius: 5px;
-    margin-right: 9px;
+   
    
 }
 .btn2:hover{
