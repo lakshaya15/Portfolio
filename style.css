@@ -191,10 +191,7 @@ section h1 span{
     font-style: normal;
     color: rgb(251, 134, 153);
 }
-.service_page{
-    margin: 22vh 20vh 22vh 20vh;
 
-}
 .container{
     box-sizing: border-box;
     display: grid;
