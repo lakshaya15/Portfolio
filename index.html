@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Website</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
     <!--google fonts link-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -26,9 +27,9 @@
 
     <nav>
         <div class="logo">
-         <h1>My<span>Portfolio</span></h1>
+         <h1>Lak<span>shaya</span></h1>
        </div>
-        <div class="left">
+        <div class="left flex flex-row justify-between">
             <ul>
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">AboutMe</a></li>
@@ -38,29 +39,27 @@
         </div>
         <!--icons-->
         <div class="right">
-            <a href="#"><i class="fa-solid fa-envelope"></i></a>
-            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/lakshaya15" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/lakshaya-g-b32133316" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
         </div>
 
     </nav>
     <!--hero section-->
     <section>
         <!--hero page-->
-        <div class="content" id="home">
-            <div class="intro">
-                <div class="heading">
+        <div class="content flex flex-row justify-center py-20 " id="home">
+            <div class="intro ">
+                <div class="heading text-5xl">
                     <h1>
                         <span class="text first_text">Hi!<br>I'm</span>
                         <span class="text sec_text">Lakshaya</span>
                     </h1>
                 </div>
-                <div class="job_title">
-                    <h3>Aspiring Front-End Developer</h3>
+                <div class="job_title ">
+                    <h3 class="text-xl">Aspiring Front-End Developer</h3>
                 </div>
             </div>
-            <div class="image">
-                <img src="C:\Users\LAKSHAYA.G\Downloads\1729056512261 (1).jpg">
-            </div>
+            
         </div>
         <!--about me page-->
         <div class="page2" id="about">
@@ -75,25 +74,39 @@
             </p>
         </div>
         <!--services page-->
-        <div class="service_page" id="skills">
+        <div class="service_page py-28" id="skills">
             <h1>My Skills</h1>
-            <div class="container">
-                <div class="box">
-                    <i class="fa-solid fa-code"></i>
-                    <h3>Web Development</h3>
-                    <p> I'm beginning my journey into web development. I enjoy creating simple, user-friendly websites using HTML and CSS.</p>
-                </div>
-                <div class="box">
-                    <i class="fa-brands fa-figma"></i>
-                    <h3>UX/UI Designing</h3>
-                    <p> I'm exploring the basics of UI/UX design, focusing on creating clean, intuitive, and engaging user experiences.</p>
-                </div>
+            <div class="2xl:container mx-auto">
+                <div class="w-[90%] mx-auto flex">
+                     <div class="container grid grid-cols:1 md:grid-cols:4">
+                        <div class="box h-[20vh] w-[20vh]">
+                                
+                            <i class="fa-solid fa-code"></i>
+                            <h3>HTML</h3>
+                        </div>
 
+                        <div class="box h-[20vh] w-[20vh]">
+                                <i class="fa-solid fa-code"></i>
+                                <h3>CSS</h3>
+                        </div>
+
+                        <div class="box h-[20vh] w-[20vh]">
+                                    <i class="fa-solid fa-code"></i>
+                                    <h3>Bootstrap</h3>
+                        </div>
+
+                        <div class="box h-[20vh] w-[25vh] text-center ">
+                            <i class="fa-solid fa-code"></i>
+                            <h3>TailwindCSS</h3>
+                        </div>
+                    
+                    </div>
+                </div>
             </div>
         </div>
 
         <!--contact page-->
-        <div class="cont_container" id="contact">
+        <div class="cont_container py-32" id="contact">
             <h1>Contact</h1>
             <div class="left_info">
                 <div class="mail">
@@ -103,9 +116,8 @@
                     <p><i class="fa-solid fa-square-phone"></i>8248281648</p>
                 </div>
                 <div class="icons">
-                    <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
-                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-                    <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="https://github.com/lakshaya15" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/lakshaya-g-b32133316" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
 
                 </div>
                 <div class="btn">
